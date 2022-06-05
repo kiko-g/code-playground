@@ -1,0 +1,8 @@
+# ide
+.vscode
+.idea
+*debug
+*build
+
+# custom folders
+stem-player-emulator
