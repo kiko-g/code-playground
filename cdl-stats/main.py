@@ -1,4 +1,7 @@
-import pandas
+import pandas as pd
+from predict import *
 
-df = pandas.read_csv('data/stage3-before-major.csv', delimiter=';')
-print(df.head())
+
+if __name__ == "__main__":
+    schedule = pd.read_csv("data/major4-bracket.csv", delimiter=";")
+    standings = pd.read_csv("data/online-standings.csv", delimiter=";")
